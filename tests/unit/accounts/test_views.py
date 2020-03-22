@@ -55,7 +55,7 @@ class MyImageField(models.ImageField):
             data.name += u'.' + filename[1]
         return data
 
-
+# form to be used later
 class TestRequestForm(forms.Form):
     username = forms.CharField(label='test', max_length=100)
     affiliation = forms.CharField(label='Your name', max_length=100)
